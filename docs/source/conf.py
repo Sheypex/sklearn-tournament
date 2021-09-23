@@ -116,7 +116,7 @@ html_theme_options = {
     "github_type": "star",
     "font_family": "'Noto Serif KR', Georgia, 'Times New Roman', Times, serif",
     "head_font_family": "'Noto Serif KR', Georgia, 'Times New Roman', Times, serif",
-    "code_font_family": "'D2Coding', 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
+    "code_font_family": "'D2Coding', 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace",  # noqa: E501
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
