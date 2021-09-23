@@ -1,6 +1,8 @@
 import click
 
 import sklearn_tournament
+import sklearn_tournament.commons
+import sklearn_tournament.distributions
 
 context_settings = dict(help_option_names=["-h", "--help"])
 
