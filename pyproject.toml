@@ -31,6 +31,7 @@ include = [
 python = "^3.8"
 rich = "^10.10.0"
 scikit-learn = "^0.24.2"
+dill = "^0.3.4"
 
 [tool.poetry.dev-dependencies]
 actions-toolkit = "^0.0.5"

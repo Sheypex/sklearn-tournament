@@ -1,9 +1,18 @@
 import click
 
 import sklearn_tournament
-import sklearn_tournament.commons
-import sklearn_tournament.distributions
 
+from sklearn_tournament import commons, distributions, model, tournament  # noqa: F401
+
+###############################
+# lib definitions and exports #
+###############################
+rc = commons.rc
+
+# PickleOut = namedtuple("PickleOut", ["longname", "regr", "test_confidence", "polyDeg", "full_confidence", "unknown_confidence", "train_confidence", "bonusPickleInfo"]) # noqa
+################################
+# cli for standalone execution #
+################################
 context_settings = dict(help_option_names=["-h", "--help"])
 
 
